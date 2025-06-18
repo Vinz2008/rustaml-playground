@@ -6,5 +6,6 @@ import topLevelAwait from "vite-plugin-top-level-await";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/rustaml-playground",
   plugins: [react(), tailwindcss(), wasm() as PluginOption, topLevelAwait()],
 })
