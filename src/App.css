@@ -9,6 +9,15 @@
 #container {
     display:flex; 
     flex-direction: row;
+    padding-top: 21px;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#output {
+    width: 50%;
+    padding: 15px;
+    text-align: left;
 }
 
 #run_button {
