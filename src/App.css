@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh
+}
+
+#container {
+    display:flex; 
+    flex-direction: row;
+}
+
+#run_button {
+    margin-left: 4%;
+    height: 20%;
+}
