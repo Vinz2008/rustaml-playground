@@ -17,7 +17,7 @@
     "react-ace": "^14.0.1",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.10",
-    "wasm": "link:wasm/pkg"
+    "wasm": "file:wasm/pkg"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
