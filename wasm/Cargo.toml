@@ -10,6 +10,7 @@ crate-type = ["cdylib"]
 wasm-bindgen = "0.2.100"
 rustaml = { git = "https://github.com/Vinz2008/rustaml" }
 js-sys = "0.3.77"
+getrandom = { version = "0.3", features = ["wasm_js"] }
 
 [profile.release]
 opt-level = "s"

@@ -22,7 +22,8 @@ pub fn eval(content: &str) -> String {
     }));
 
 
-    rustaml::interpret_code(content, Path::new("<wasm>")).unwrap();
+    // TODO :  should debug print ?
+    rustaml::interpret_code(content, Path::new("<wasm>"), false).unwrap();
 
     let captured = std::io::set_output_capture(None).unwrap();
     let captured = Arc::try_unwrap(captured).unwrap();
